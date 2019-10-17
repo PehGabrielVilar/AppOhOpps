@@ -3,4 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="barraum">#69d4c2</color>
+    <color name="barratwo">#ef626e</color>
+    <color name="barrathree">#8c65e4</color>
 </resources>

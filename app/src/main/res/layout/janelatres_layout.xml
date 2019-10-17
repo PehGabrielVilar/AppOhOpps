@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient"
+    android:background="@drawable/gradienthree"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -23,43 +23,48 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="20dp"
-        android:src="@drawable/ops" />
+        android:src="@drawable/apppps" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:paddingBottom="25dp"
-        android:text="@string/last_step"
+        android:text="This team requires \n you to be invited"
         android:textColor="#fff"
         android:textSize="22dp" />
 
-    <TextView
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:paddingBottom="18dp"
-        android:text="Lets connect your data\nthrough Apple Health Kit"
-        android:textColor="#fff"
-        android:textSize="18dp" />
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:backgroundTint="#fff"
+        android:hint="Re-enter email"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:inputType="textEmailAddress"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/bordabtnjnldois"
+        android:text="REQUEST INVITED"
+        android:textColor="#fff" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
-        android:layout_marginBottom="100dp"
-        android:background="@drawable/bordabtn"
-        android:text="CONNECT"
-        android:textColor="#fff" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:layout_marginRight="100dp"
-        android:background="@drawable/bordabtntwo"
-        android:text="SEE SUPPORT DEVICES"
+        android:background="@drawable/bordabtntwojnldois"
+        android:text="CREATE A TEAM"
         android:textColor="#fff" />
 
 

@@ -7,9 +7,15 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" android:theme="@style/Sembarra">
+        android:supportsRtl="true">
+        <activity android:name=".JanelaTres_Activity"
+            android:theme="@style/SembarrToproxa"></activity>
+        <activity
+            android:name=".JanelaDois_Activity"
+            android:theme="@style/SembarrTopVermelha" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Sembarra">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

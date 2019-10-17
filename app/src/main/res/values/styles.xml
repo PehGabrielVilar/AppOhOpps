@@ -11,7 +11,21 @@
     <style name="Sembarra" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/barraum</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SembarrTopVermelha" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/barratwo</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SembarrToproxa" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/barrathree</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
